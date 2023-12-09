@@ -55,7 +55,7 @@ def try_load_deprecated_user_path_config():
         replace_config('fooocus_expansion_path', 'path_fooocus_expansion')
         replace_config('temp_outputs_path', 'path_outputs')
 
-        if deprecated_config_dict.get("default_model", None) == 'juggernautXL_version6Rundiffusion.safetensors':
+        if deprecated_config_dict.get("default_model", None) == 'juggernautXL_version7Rundiffusion.safetensors':
             os.replace('user_path_config.txt', 'user_path_config-deprecated.txt')
             print('Config updated successfully in silence. '
                   'A backup of previous config is written to "user_path_config-deprecated.txt".')
@@ -251,14 +251,14 @@ default_image_number = get_config_item_or_set_default(
 checkpoint_downloads = get_config_item_or_set_default(
     key='checkpoint_downloads',
     default_value={
-        "juggernautXL_version6Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors"
+        "juggernautXL_version7Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors"
     },
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items())
 )
 lora_downloads = get_config_item_or_set_default(
     key='lora_downloads',
     default_value={
-        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+        "sd_xl_offset_example-lora_1.0.safetensors": "https://civitai.com/api/download/models/240840?type=Model&format=SafeTensor&size=full&fp=fp16"
     },
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items())
 )

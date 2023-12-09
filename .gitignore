@@ -50,3 +50,4 @@ experiment.py
 /package-lock.json
 /.coverage*
 /auth.json
+models/checkpoints/realisticStockPhoto_v10.safetensors:Zone.Identifier
