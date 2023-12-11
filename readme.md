@@ -112,7 +112,8 @@ Please open an issue if you use similar devices but still cannot achieve accepta
 
 | Colab | Info
 | --- | --- |
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/drive/1Ijm0-YjdidDY8kdtJMCqfl056n93Yng7#scrollTo=mTQD3r623sLr](https://colab.research.google.com/drive/1Ijm0-YjdidDY8kdtJMCqfl056n93Yng7)) | Fooocus Official
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([[https://colab.research.google.com/drive/1Ijm0-YjdidDY8kdtJMCqfl056n93Yng7#scrollTo=mTQD3r623sLr]([https://colab.research.google.com/drive/1Ijm0-YjdidDY8kdtJMCqfl056n93Yng7](https://colab.research.google.com/drive/1Ijm0-YjdidDY8kdtJMCqfl056n93Yng7))](https://colab.research.google.com/drive/1Ijm0-YjdidDY8kdtJMCqfl056n93Yng7)) | Fooocus Official
+[https://colab.research.google.com/drive/1Ijm0-YjdidDY8kdtJMCqfl056n93Yng7]
 
 In Colab, you can modify the last line to `!python entry_with_update.py --share` or `!python entry_with_update.py --preset anime --share` or `!python entry_with_update.py --preset realistic --share` for Fooocus Default/Anime/Realistic Edition.
 
